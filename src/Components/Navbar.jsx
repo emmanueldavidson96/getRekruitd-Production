@@ -14,14 +14,14 @@ function Navbar() {
             <div className="navbar container">
                 <div className="logo">
                     <img src={logo} alt="logo" />
-                    <p>GetReKuitd</p>
+                    <p>Enforca</p>
                 </div>
 
                 <nav className={isMobile ? 'links-active' : 'links'}>
                     <ul>
                         <li><p><Link to='/tailoredJobs'>Schedule Consultation </Link></p>{ isMobile && <MdArrowRightAlt/>}</li>
 
-                        <li><p><Link to='/ResumeFeedback'>Review Resume</Link></p> { isMobile && <MdArrowRightAlt/>}</li>
+                        {/* <li><p><Link to='/ResumeFeedback'>Review Resume</Link></p> { isMobile && <MdArrowRightAlt/>}</li> */}
                     </ul>
                     
                     {/* {

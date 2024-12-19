@@ -59,8 +59,13 @@ function Home() {
          </p>
         </div>
         <div className="buttons">
-            <button className='first'>
-             <Link to = '/login'>start your job search</Link> </button>
+            <PopupButton
+              url='https://calendly.com/with_mentor_techies?primary_color=111D63'
+              rootElement={document.getElementById("root")}
+              text="Schedule Appointment"
+              className='btn_schedule_appointment first'
+            >
+            </PopupButton>
 
             {/* <button className='secondd'> <Link to = '/assesment'>free cv review</Link> </button> */}
         </div>
