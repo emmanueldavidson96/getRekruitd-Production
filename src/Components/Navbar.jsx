@@ -12,10 +12,10 @@ function Navbar() {
     return (
         <>
             <div className="navbar container">
-                <div className="logo">
+                <Link className="logo" to={"/"}>
                     <img src={logo} alt="logo" />
                     <p>Enforca</p>
-                </div>
+                </Link>
 
                 <nav className={isMobile ? 'links-active' : 'links'}>
                     <ul>
